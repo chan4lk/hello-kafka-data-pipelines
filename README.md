@@ -26,17 +26,18 @@ Kafka Producer → Kafka Topic → Spark Structured Streaming → Cassandra
 ## Setup
 
 1. **Clone the repository**
-   ```bash
+```bash
    git clone <repo-url>
    cd hello-kafka-data-pipelines
-   ```
+```
 
 2. **Install Python dependencies**
-   ```bash
+   
+```bash
   uv venv
   source .venv/bin/activate 
   uv sync
-   ```
+ ```
 
 3. **Start Kafka and Cassandra using Docker Compose**
    ```bash
