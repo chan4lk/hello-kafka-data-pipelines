@@ -1,0 +1,13 @@
+[project]
+name = "hello-kafka-data-pipelines"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "apache-airflow>=3.0.0",
+    "cassandra-driver>=3.29.2",
+    "kafka-python>=2.2.0",
+    "pendulum>=3.1.0",
+    "pyspark>=3.5.5",
+]
